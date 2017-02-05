@@ -8,6 +8,7 @@ class EtudiantController extends Controller
 {
     public function indexAction()
     {
+        //test second commit
         return $this->render('EspritTestBundle:Etudiant:index.html.twig', array(
             // ...
         ));
