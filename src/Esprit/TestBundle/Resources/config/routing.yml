@@ -1,0 +1,7 @@
+esprit_test_homepage:
+    path:     /
+    defaults: { _controller: EspritTestBundle:Default:index }
+
+index:
+    path:     /index
+    defaults: { _controller: EspritTestBundle:Etudiant:index }
